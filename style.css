@@ -1,4 +1,10 @@
 .profil {
-  width: 50vw;
+  width: 50%;
+  border: 1px solid grey;
+}
+.Pres {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   border: 1px solid grey;
 }
