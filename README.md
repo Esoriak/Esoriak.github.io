@@ -10,7 +10,7 @@ Travailler aussi fut un besoin les années passants. J'ai donc 10 ans de métier
 J'ai voulu prendre le risque. M'épanouir, faire mieux, révéler mon potentiel et faire un métier dont je serais fière qui allierait mes deux axes de vie : aider / créer. Alors je me suis lancée.
 J'ai entrepris cette **folle reconversion**. J'ai appris les bases ( HTML/CSS ) seule entre openclassroom et quelques bouquins. Un peu de programmation en python également. Le plus dur était à venir et j'avais besoin d'accompagnement alors j'ai appris le reste dans une formation intensive et diplomante à la **Wild Code School **.
 
-#### Mon Parcours à la *Wild Code School*
+#### Mon Parcours à la *Wild Code School
 
 5 mois de formation intensive + 4 à 6 mois de stage en entreprise pour valider le diplome d'état RNCP niveau 2.
 Au Menu :
