@@ -1,10 +1,111 @@
-.profil {
-  width: 50%;
-  border: 1px solid grey;
+body {
+  background-color: #333738;
 }
-.Pres {
+#presentation {
+  display: flex;
+}
+.cardso {
   display: flex;
   flex-direction: column;
+}
+.name {
+  margin: auto;
+  text-align: center;
+  font-size: 2.1em;
+  color: #81a6cc;
+}
+.photoprofil {
+  margin: auto;
+  width:80%;
+  height:80%;
+  border-radius: 12px 12px 12px 12px;
+  box-shadow: #222324 5px 5px 5px;
+}
+.job {
+  margin: auto;
+  margin-top: 1%;
+  color: #81a6cc;
+  font-size: 1.7em;
+}
+h3, h4 {
+  color :#568abf;
+  text-align: center;
+}
+
+.AboutMe {
+  color: #dfe6ed;
+  display: flex;
+  max-width:65%;
+  flex-direction: column;
   justify-content: center;
-  border: 1px solid grey;
+  border: 1px solid black;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #222324;
+  margin-top:1%;
+  margin-left: 1%;
+}
+.profil {
+  width: 95%;
+  font-size: 1.1em;
+  text-align: justify;
+  margin-bottom: 2%;
+  margin: auto;
+}
+.skills {
+  display: flex;
+  justify-content: space-around;
+}
+.hardskills {
+  height: 15vh;
+}
+.Wild {
+  color: #dfe6ed;
+  display: flex;
+  max-width:50%;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #222324;
+  margin-top: 3%;
+  margin-left: 1%;
+}
+.logoschool {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.logowild {
+  margin-top: -2%;
+  height:12vh;
+  width:15vw;
+}
+.gen {
+  margin-top: -2%;
+  height: 12vh;
+  width:7vw;
+}
+.preswild {
+  width: 95%;
+  font-size: 1.1em;
+  text-align: justify;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin: auto;
+}
+.discover {
+  display: flex;
+  flex-direction: row;
+}
+.projet1 {
+  color: #dfe6ed;
+  display: flex;
+  max-width:50%;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #222324;
+  margin-top: 3%;
+  margin-left: 1%;
 }
