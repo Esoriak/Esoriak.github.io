@@ -37,7 +37,7 @@ strong {
 .hardskills1{
   width: 80%;
   height: 100%;
-  background: url("./assets/52493.png");
+  background: url("./assets/logo/52493.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -45,7 +45,7 @@ strong {
 .hardskills2 {
   width: 50%;
   height: 100%;
-  background: url("./assets/formation-reactjs.png");
+  background: url("./assets/logo/formation-reactjs.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -53,7 +53,7 @@ strong {
 .hardskills3 {
   width:80%;
   height:100%;
-  background: url("./assets/1200px-MySQL.svg.png");
+  background: url("./assets/logo/1200px-MySQL.svg.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -61,7 +61,7 @@ strong {
 .hardskills4 {
   width:80%;
   height:100%;
-  background: url("./assets/590px-Node.js_logo.svg.png");
+  background: url("./assets/logo/590px-Node.js_logo.svg.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -69,7 +69,7 @@ strong {
 .hardskills5 {
   width:80%;
   height:100%;
-  background: url("./assets/octocatlink.png");
+  background: url("./assets/logo/octocatlink.png");
   background-size: contain;
   background-repeat: no-repeat;
 }

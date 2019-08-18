@@ -24,14 +24,14 @@ btn2.onclick = function() {
   document.getElementById('title').innerHTML = "Site fan de Chuck Norris";
   document.getElementById('explain_project').innerHTML = "2eme projet (/5 semaines) : <br/> Créer un site dynamique (CSS/JAVASCRIPT) / découvrir et utiliser REACT / Consommation d'une ou plusieurs API / Découpes des tâches plus précises / Utilisation d'un Backlog/Trello <br/><br/> Voici le résultat de ma Chuck-Team !"
   document.getElementById('link_repo').innerHTML =' <a href="https://github.com/Esoriak/Chuck-Norris-Will-Win">Un Chuck pour les gouverner tous</a>'
-  document.getElementById('item2').innerHTML ='<img class="d-block w-100" src="assets/ChuckNorris/ChuckHome.png" alt="page home">'
-  document.getElementById('item3').innerHTML ='<img class="d-block w-100" src="assets/ChuckNorris/pagehome2.png" alt="page home 2">'
-  document.getElementById('item4').innerHTML ='<img class="d-block w-100" src="assets/ChuckNorris/Page ChuckHome2.png" alt="page home 3">'
-  document.getElementById('item6').innerHTML ='<img class="d-block w-100" src="assets/ChuckNorris/PageChuckCarousel1.png" alt="carousel chuck">'
-  document.getElementById('item7').innerHTML ='<img class="d-block w-100" src="assets/ChuckNorris/Top5 ChuckFact.png" alt="top 5 chuck">'
-  document.getElementById('item5').innerHTML ='<img class="d-block w-100" src="assets/ChuckNorris/Page ShopChuck.png" alt="shop chuck">'
-  document.getElementById('item8').innerHTML ='<img class="d-block w-100" src="assets/ChuckNorris/pagefilmography.png" alt="filmography">'
-  document.getElementById('item1').innerHTML ='<img class="d-block w-100" src="assets/ChuckNorris/QuizzHome.png" alt="quizz Home">'
+  document.getElementById('item1').innerHTML ='<img class="d-block w-100" src="assets/ChuckNorris/ChuckHome.png" alt="page home">'
+  document.getElementById('item2').innerHTML ='<img class="d-block w-100" src="assets/ChuckNorris/pagehome2.png" alt="page home 2">'
+  document.getElementById('item3').innerHTML ='<img class="d-block w-100" src="assets/ChuckNorris/Page ChuckHome2.png" alt="page home 3">'
+  document.getElementById('item4').innerHTML ='<img class="d-block w-100" src="assets/ChuckNorris/PageChuckCarousel1.png" alt="carousel chuck">'
+  document.getElementById('item5').innerHTML ='<img class="d-block w-100" src="assets/ChuckNorris/Top5 ChuckFact.png" alt="top 5 chuck">'
+  document.getElementById('item6').innerHTML ='<img class="d-block w-100" src="assets/ChuckNorris/Page ShopChuck.png" alt="shop chuck">'
+  document.getElementById('item7').innerHTML ='<img class="d-block w-100" src="assets/ChuckNorris/pagefilmography.png" alt="filmography">'
+  document.getElementById('item8').innerHTML ='<img class="d-block w-100" src="assets/ChuckNorris/QuizzHome.png" alt="quizz Home">'
   document.getElementById('item9').innerHTML ='<img class="d-block w-100" src="assets/ChuckNorris/ChuckQuizz1.png" alt="quizz2">'
   document.getElementById('item10').innerHTML ='<img class="d-block w-100" src="assets/ChuckNorris/ChuckQuizz2.png" alt="quizz3">'
 }
@@ -45,11 +45,11 @@ btn3.onclick = function() {
   document.getElementById('item3').innerHTML ='<img class="d-block w-100" src="assets/RevusetCorriges/ConnexionBackOffice.png" alt="page de connexion">'
   document.getElementById('item4').innerHTML ='<img class="d-block w-100" src="assets/RevusetCorriges/BackofficeEvents.png" alt="page d\'accueil Evenement">'
   document.getElementById('item5').innerHTML ='<img class="d-block w-100" src="assets/RevusetCorriges/FormEvent.png" alt="Formulaire d\évenement">'
-  document.getElementById('item6').innerHTML ='<img class="d-block w-100" src="assets/RevusetCorriges/ModeDeleteEvents.png" alt="Suppresion d\'un évenement">'
-  document.getElementById('item10').innerHTML ='<img class="d-block w-100" src="assets/RevusetCorriges/PageVideo.png" alt="page video">'
-  document.getElementById('item7').innerHTML ='<img class="d-block w-100" src="assets/RevusetCorriges/PageFormCineRC.png" alt="Formulaire cinéma>'
-  document.getElementById('item8').innerHTML ='<img class="d-block w-100" src="assets/RevusetCorriges/AddContactinMovie.png" alt="Formulaire contact de films">'
-  document.getElementById('item9').innerHTML ='<img class="d-block w-100" src="assets/RevusetCorriges/SettingsMode.png" alt="Modal de réglages du calendrier">'
+  document.getElementById('item6').innerHTML ='<img class="d-block w-100" src="assets/RevusetCorriges/ModeDeleteEvents.png" alt="Suppression d\'un évenement">'
+  document.getElementById('item7').innerHTML ='<img class="d-block w-100" src="assets/RevusetCorriges/PageVideo.png" alt="page video">'
+  document.getElementById('item8').innerHTML ='<img class="d-block w-100" src="assets/RevusetCorriges/PageFormCineRC.png" alt="Formulaire cinéma>'
+  document.getElementById('item9').innerHTML ='<img class="d-block w-100" src="assets/RevusetCorriges/AddContactinMovie.png" alt="Formulaire contact de films">'
+  document.getElementById('item10').innerHTML ='<img class="d-block w-100" src="assets/RevusetCorriges/SettingsMode.png" alt="Modal de réglages du calendrier">'
 
 }
 
