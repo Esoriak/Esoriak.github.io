@@ -1,111 +1,182 @@
 body {
   background-color: #333738;
 }
-#presentation {
+
+#presentation{
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 95vw;
+  height: 100vh;
+  background-color: #222324;
+  border: 1px solid black;
+  margin-left: 2vw;
+  margin-right: 3vw;
+
 }
-.cardso {
+
+.AboutMe{
+  width: 60%;
+  color: #dfe6ed; 
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+strong {
+  color: #81a6cc;
+}
+
+.skills{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 5%;
+  height: 13%;
+  width: 100%;
 }
+
+.hardskills1{
+  width: 80%;
+  height: 100%;
+  background: url("./assets/52493.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hardskills2 {
+  width: 50%;
+  height: 100%;
+  background: url("./assets/formation-reactjs.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hardskills3 {
+  width:80%;
+  height:100%;
+  background: url("./assets/1200px-MySQL.svg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hardskills4 {
+  width:80%;
+  height:100%;
+  background: url("./assets/590px-Node.js_logo.svg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hardskills5 {
+  width:80%;
+  height:100%;
+  background: url("./assets/octocatlink.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cardso{
+  width: 30%;
+  height:70%;
+}
+
 .name {
   margin: auto;
+  margin-top: 2%;
   text-align: center;
   font-size: 2.1em;
   color: #81a6cc;
 }
-.photoprofil {
-  margin: auto;
-  width:80%;
-  height:80%;
-  border-radius: 12px 12px 12px 12px;
-  box-shadow: #222324 5px 5px 5px;
+
+.photoprofil{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 5px 5px 5px black;
+  margin-top: 5%;
 }
+
 .job {
-  margin: auto;
-  margin-top: 1%;
+  margin-top: 5%;
+  text-align: center;
   color: #81a6cc;
   font-size: 1.7em;
 }
+
+.Wild{
+  display: flex;
+  flex-direction: column;
+  margin-top:5vh;
+  margin-left: 5vw;
+  color: #dfe6ed; 
+}
+
 h3, h4 {
   color :#568abf;
   text-align: center;
 }
 
-.AboutMe {
-  color: #dfe6ed;
-  display: flex;
-  max-width:65%;
-  flex-direction: column;
-  justify-content: center;
-  border: 1px solid black;
-  border-radius: 5px 5px 5px 5px;
-  background-color: #222324;
-  margin-top:1%;
-  margin-left: 1%;
-}
-.profil {
-  width: 95%;
-  font-size: 1.1em;
-  text-align: justify;
-  margin-bottom: 2%;
-  margin: auto;
-}
-.skills {
+/* .logoschool {
   display: flex;
   justify-content: space-around;
+  margin-top: 5%;
+  height: 25%;
+  width: 100%;
+
 }
-.hardskills {
-  height: 15vh;
+.logoschool1 {
+  width: 70%;
+  height:100%;
+  background: url("./assets/WildCodeSchool.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
 }
-.Wild {
+.logoschool2 {
+  width:80%;
+  height:100%;
+  background: url("./assets/label_gen_vf_cmjn.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
+
+#projet {
   color: #dfe6ed;
   display: flex;
-  max-width:50%;
-  flex-direction: column;
+  max-width:80%;
+  flex-direction: row;
   justify-content: center;
   border: 1px solid black;
   border-radius: 5px 5px 5px 5px;
   background-color: #222324;
-  margin-top: 3%;
-  margin-left: 1%;
+  margin: auto;
+  border-top:none;
+  /* display: none; */
 }
-.logoschool {
+
+
+.navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  width:80%;
+  margin: auto;
+  background-color: #222324;
+  border: 1px solid black;
+  border-radius: 5px 5px 10px 10px;
+  border-bottom: none;
 }
-.logowild {
-  margin-top: -2%;
-  height:12vh;
+
+.navi {
+  border-radius: 10px 10px;
   width:15vw;
+  background-color: #568abf;
 }
-.gen {
-  margin-top: -2%;
-  height: 12vh;
-  width:7vw;
-}
-.preswild {
-  width: 95%;
-  font-size: 1.1em;
-  text-align: justify;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin: auto;
-}
-.discover {
+.pres {
   display: flex;
-  flex-direction: row;
-}
-.projet1 {
-  color: #dfe6ed;
-  display: flex;
-  max-width:50%;
   flex-direction: column;
-  justify-content: center;
-  border: 1px solid black;
-  border-radius: 5px 5px 5px 5px;
-  background-color: #222324;
-  margin-top: 3%;
-  margin-left: 1%;
+  margin-top: 2%;
+}
+.presproject {
+  width:90%;
+  margin: auto;
 }

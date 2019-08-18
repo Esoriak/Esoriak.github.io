@@ -13,25 +13,29 @@
   <title>Solène Mahaut</title>
 
   <!-- Custom styles for this template -->
+
   <link href="style.css" rel="stylesheet">
 
 
   <!-- FontAwesome css -->
+
   <script src="https://kit.fontawesome.com/e97d3e9ad4.js"></script>
 </head>
 
 <body>
 
   <!-- Présentation du profil -->
+
+
   <section id="presentation">
     <div class="AboutMe">
       <h3> About Me</h3>
-      <p class="profil">Je voudrais vous dire à quel point <B>le code à changer ma vie</B> mais ce serait trop long.
+      <p class="profil">Je voudrais vous dire à quel point <strong>le code à changer ma vie</strong> mais ce serait trop long.
         Je vais me contenter de vous dire comment j'ai fait et d'où je suis venue. <br /><br />
         J'ai 26 ans et j'ai toujours été collée à mon clavier, absorbée par l'écran. Pour écrire pour principalement,
         mais aussi pour lire, jouer, créer. J'ai commencé par des blogs, des petits jeux rpgs, des montages, bref
         j'avais
-        <B>besoin de créer.</B><br /><br />
+        <strong>besoin de créer.</strong><br /><br />
         Travailler aussi fut un besoin les années passants. J'ai donc 10 ans de métiers dans la vente derrière moi, les
         techniques de vente et la relation client n'ont aucun secret pour moi. Travailler dans des grands groupes tels
         que Camaieu,
@@ -42,35 +46,39 @@
         J'ai voulu prendre le risque quand même. M'épanouir, faire mieux, révéler mon potentiel et faire un métier dont
         je serais
         fière; qui allierait mes deux axes de vie : aider / créer. Alors je me suis lancée.<br /><br />
-        J'ai entrepris cette <B>folle reconversion</B> dans le web. J'ai appris les bases ( HTML/CSS ) seule entre
+        J'ai entrepris cette <strong>folle reconversion</strong> dans le web. J'ai appris les bases ( HTML/CSS ) seule entre
         openclassroom et quelques bouquins. Un peu de programmation en python également. Le plus dur était à venir et
         j'avais besoin d'accompagnement alors j'ai appris le reste dans une formation intensive et diplomante à la
-        <B>Wild Code School.</B>
+        <strong>Wild Code School.</strong></p>
         <div class="skills">
-          <img class="hardskills" src="assets/52493.png" alt="logohtml_css_javascript" />
-          <img class="hardskills" src="assets/React.js_logo-512.png" alt="logo_react" />
-          <img class="hardskills" src="assets/590px-Node.js_logo.svg.png" alt="logo_node" />
-          <img class="hardskills" src="assets/1200px-MySQL.svg.png" alt="logo_mysql" />
-          <img class="hardskills" src="assets/octocatlink.png" alt="logo_github_link" />
+          <div class="hardskills1"></div>
+          <div class="hardskills2"></div>
+          <div class="hardskills3"></div>
+          <div class="hardskills4"></div>
+          <div class="hardskills5"></div>
         </div>
-      </p>
     </div>
+
+    <!-- Card du profil -->
+
+
     <div class="cardso">
       <h1 class="name">Solène Mahaut</h1>
       <img class="photoprofil" src="assets/16mai19So2.jpg" alt="photoprofilsolene" />
       <p class="job">Développeuse Web Junior</p>
     </div>
-
   </section>
 
-  <section id="parcours">
+    <!-- Parcours de Reconversion -->
+
+
     <div class="discover">
     <div class="Wild">
-      <h3>Wild Code School</h3>
-      <div class="logoschool">
-        <img class="logowild" src="assets/WildCodeSchool.png" alt="logo_wildcodeschool" />
-        <img class="gen" src="assets/label_gen_vf_cmjn.png" alt="logo_gen" />
-      </div>
+      <h3><B>Wild Code School</B></h3>
+      <!-- <div class="logoschool">
+        <div class="logoschool1"></div>
+        <div class="logoschool2"></div>
+      </div> -->
       <p class="preswild">
 
         La Wild est une école labellisé par la grande école du numérique.
@@ -98,53 +106,69 @@
       </p>
     </div>
 
+        <!-- Barre de navigation pour les différents projets -->
 
-      <div class="projet1">
-        <h4>Site de Photographe</h4>
-        <p class="preswild">
-          1er projet (/3 semaines) : <br />
-          Créer un site statique (HTML/CSS) / découvrir Git / Comprendre l'utilité de fonctionner en agile / Découvrir
-          Bootstrap.<br />
-          Voici le résultat de notre Dream Team : (pour voir le repo :<a href="https://github.com/tictac-co/Photographer-Website"> Photographer-Website tictac-co</a>)
+
+        <div class="navbar">
+            <button id="navi1" class="navi" >Projet 1</button>
+            <button id="navi2" class="navi">Projet 2</button>
+            <button id="navi3" class="navi">Projet 3</button>
+        </div>
+
+
+      <!-- Carousel des projets (presentation 35% + Demo 65%%") -->
+
+      <!-- Projet  -->
+
+    <div id="Projets">
+      <div id="projet" class="projet">
+        <div class="pres1">
+
+        <h4 id="title">
+
+        </h4>
+        <p id="explain_project" class="presproject1">
+
+
+          <div id="link_repo">
+
+          </div>
         </p>
-        <div id="carouselProjet1" class="carousel slide" data-ride="carousel">
+
+      </div>
+
+      <!-- CAROUSEL PROJECTS-->
+
+
+        <div id="carouselProjet" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="assets/PageHome1.png" alt="Page Home">
+            <div class="carousel-item active" id="item1">
             </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="assets/PageHomeModal1.png" alt="Modal Evenement Home">
+            <div class="carousel-item"  id="item2">
             </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="assets/PageHomeGallery.png" alt="Gallery Photo Home">
+            <div class="carousel-item" id="item3">
             </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="assets/PageNoiretBlanc.png" alt="Gallery Noir et Blanc">
+            <div class="carousel-item" id="item4">
             </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="assets/PageVoyage + footer.png" alt="Footer">
+            <div class="carousel-item" id="item5">
             </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="assets/Timeline.png" alt="Timeline">
+            <div class="carousel-item" id="item6">
             </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="assets/Contactme.png" alt="Contact Page">
+            <div class="carousel-item" id="item7">
             </div>
 
           </div>
-          <a class="carousel-control-prev" href="#carouselProjet1" role="button" data-slide="prev">
+          <a class="carousel-control-prev" href="#carouselProjet" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#carouselProjet1" role="button" data-slide="next">
+          <a class="carousel-control-next" href="#carouselProjet" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
         </div>
       </div>
     </div>
-  </section>
-
 
 
 
@@ -158,6 +182,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+
+  <script src="./script.js"></script>
 </body>
 
 </html>
