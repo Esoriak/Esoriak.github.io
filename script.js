@@ -20,7 +20,7 @@ btn1.onclick = function() {
 btn2.onclick = function() {
   document.getElementById('title').innerHTML = "Site fan de Chuck Norris";
   document.getElementById('explain_project').innerHTML = "2eme projet (/5 semaines) : <br/> Créer un site dynamique (CSS/JAVASCRIPT) / découvrir et utiliser REACT / Consommation d'une ou plusieurs API / Découpes des tâches plus précises / Utilisation d'un Backlog/Trello <br/><br/> Voici le résultat de ma Chuck-Team !"
-  document.getElementById('link_repo').innerHTML =' <a href="#">Un Chuck pour les gouverner tous</a>'
+  document.getElementById('link_repo').innerHTML =' <a href="https://github.com/Esoriak/Chuck-Norris-Will-Win">Un Chuck pour les gouverner tous</a>'
 }
 
 btn3.onclick = function() {
