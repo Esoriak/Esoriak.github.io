@@ -133,7 +133,7 @@ strong {
   height: 60%;
 }
 .photoprofil{
-  background: url("assets/16mai19So2.jpg");
+  background: url("./assets/16mai19So2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width:95vw;
