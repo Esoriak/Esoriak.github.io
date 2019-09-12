@@ -4,7 +4,7 @@ const btn2 = document.getElementById('navi2')
 const btn3 = document.getElementById('navi3')
 
 
-onload= function() {
+onload = function() {
   document.getElementById('title').innerHTML = "Site de Photographe";
   document.getElementById('explain_project').innerHTML = " 1er projet (/3 semaines)<br/>Créer un site statique (HTML/CSS) / découvrir Git / Comprendre l'utilité de fonctionner en agile / Découvrir Bootstrap.<br/> Voici le résultat de notre Dream Team : "
   document.getElementById('link_repo').innerHTML =' <a href="https://github.com/tictac-co/Photographer-Website">Photographer-Website tictac-co</a>'
