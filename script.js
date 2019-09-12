@@ -4,7 +4,7 @@ const btn2 = document.getElementById('navi2')
 const btn3 = document.getElementById('navi3')
 
 
-btn1.onclick = function() {
+onload= function() {
   document.getElementById('title').innerHTML = "Site de Photographe";
   document.getElementById('explain_project').innerHTML = " 1er projet (/3 semaines)<br/>Créer un site statique (HTML/CSS) / découvrir Git / Comprendre l'utilité de fonctionner en agile / Découvrir Bootstrap.<br/> Voici le résultat de notre Dream Team : "
   document.getElementById('link_repo').innerHTML =' <a href="https://github.com/tictac-co/Photographer-Website">Photographer-Website tictac-co</a>'
@@ -19,6 +19,24 @@ btn1.onclick = function() {
   document.getElementById('item9').innerHTML ='<img class="d-block w-100" src="assets/PhotographeAbdelKarim/Timeline4.png" alt="timeline4">'
   document.getElementById('item10').innerHTML ='<img class="d-block w-100" src="assets/PhotographeAbdelKarim/ContactHim.png" alt="Contact Page">'
 }
+
+
+btn1.onclick= function() {
+  document.getElementById('title').innerHTML = "Site de Photographe";
+  document.getElementById('explain_project').innerHTML = " 1er projet (/3 semaines)<br/>Créer un site statique (HTML/CSS) / découvrir Git / Comprendre l'utilité de fonctionner en agile / Découvrir Bootstrap.<br/> Voici le résultat de notre Dream Team : "
+  document.getElementById('link_repo').innerHTML =' <a href="https://github.com/tictac-co/Photographer-Website">Photographer-Website tictac-co</a>'
+  document.getElementById('item1').innerHTML ='<img class="d-block w-100" src="assets/PhotographeAbdelKarim/P1Home.png" alt="Page Home">'
+  document.getElementById('item2').innerHTML ='<img class="d-block w-100" src="assets/PhotographeAbdelKarim/P1modal1.png" alt="Modal Evenement Home">'
+  document.getElementById('item3').innerHTML ='<img class="d-block w-100" src="assets/PhotographeAbdelKarim/P1Gallery2.png" alt="Gallery Photo Home">'
+  document.getElementById('item4').innerHTML ='<img class="d-block w-100" src="assets/PhotographeAbdelKarim/P1B&Wmodal1.png" alt="Gallery Noir et Blanc">'
+  document.getElementById('item5').innerHTML ='<img class="d-block w-100" src="assets/PhotographeAbdelKarim/P1TravelPage and Quotesfooter.png" alt="Footer">'
+  document.getElementById('item6').innerHTML ='<img class="d-block w-100" src="assets/PhotographeAbdelKarim/Timeline1.png" alt="Timeline">'
+  document.getElementById('item7').innerHTML ='<img class="d-block w-100" src="assets/PhotographeAbdelKarim/Timeline2.png" alt="timeline2">'
+  document.getElementById('item8').innerHTML ='<img class="d-block w-100" src="assets/PhotographeAbdelKarim/Timeline3.png" alt="timeline3">'
+  document.getElementById('item9').innerHTML ='<img class="d-block w-100" src="assets/PhotographeAbdelKarim/Timeline4.png" alt="timeline4">'
+  document.getElementById('item10').innerHTML ='<img class="d-block w-100" src="assets/PhotographeAbdelKarim/ContactHim.png" alt="Contact Page">'
+}
+
 
 btn2.onclick = function() {
   document.getElementById('title').innerHTML = "Site fan de Chuck Norris";
